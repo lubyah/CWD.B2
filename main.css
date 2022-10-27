@@ -1,0 +1,10 @@
+.toast {
+     background-color: purple;
+  }
+
+
+  .loader {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+  }

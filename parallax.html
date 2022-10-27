@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+      <!-- Material icons -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <title>Parallax</title>
+  </head>
+  <body>
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="img/artist4.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header grey-text">Artist example</h2>
+        <a class="btn red waves-effect waves-light" onclick="M.toast({
+          html: 'Creative Web Design',
+          inDuration: 1000,
+          completeCallback: function() {
+                    alert('Your toast was dismissed');
+                },
+                classes: 'rounded'
+            })">Toast</a>
+            <a class="btn toottipped pink" data-position="bottom" data-tooltip="i am a tooltip">Hover me</a>
+                <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art. The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.</p>
+          </div>
+          </div>
+       
+            <div class="container white">
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+              </ul>
+            </div>
+
+              
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="img/artist5.jpg" alt="">
+      </div>
+    </div>
+              
+        <div class="section white">
+          <div class="row container">
+            <h2 class="header grey-text">Artist example</h2>
+            <a class="btn red waves-effect waves-light" onclick="M.toast({
+              html: 'This is the concept.',
+              classes:'rounded' })">
+              Here is the concept</a>
+            <a class="btn tooltipped pink" data-position="bottom" data-tooltip="I am a tooltip">Hover me</a>
+            <p>An artist is a person engaged in an activity related to creating art, practicing the arts, or demonstrating an art. The common usage in both everyday speech and academic discourse refers to a practitioner in the visual arts only.</p>
+          </div>
+        </div>
+                 
+        <div class="container white">
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+          </ul>
+   
+
+
+      <!-- Jquery CDN -->
+      <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <script>
+      $(document).ready(function() {
+        $('.parallax').parallax();
+      });
+      </script>
+
+</html>
